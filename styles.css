@@ -1,0 +1,186 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  color: #f9faf8;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+h2 {
+  color: #1f2937;
+  font-weight: 900;
+  font-size: 36px;
+  margin: 24px;
+}
+
+h3 {
+  color: #1f2937;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+button, .signup-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  width: 100px;
+  padding: 6px;
+  border-radius: 5px;
+  border: none;
+}
+
+.signup-button {
+    border: 1px solid #f9faf8;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.hero,
+.header,
+.footer {
+  background-color: #1f2937;
+}
+
+.quote {
+  padding: 40px;
+  background-color: #e5e7eb;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-name {
+  font-weight: bold;
+  text-align: end;
+}
+
+.hero p {
+  color: #e5e7eb;
+}
+
+.header,
+.trivia {
+  padding: 12px;
+}
+
+.trivia {
+  text-align: center;
+  height: 425px;
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
+}
+
+.inner-header {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.inner-trivia {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.inner-quote {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  padding: 12px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.inner-hero {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.hero-text,
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card {
+  align-items: center;
+  width: 200px;
+  color: #1f2937
+}
+
+.trivia-img {
+  width: 125px;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.footer {
+  padding: 24px;
+  text-align: center;
+  color: #e5e7eb;
+}
+
+.action {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-action {
+  width: 1000px;
+  padding: 30px;
+  border-radius: 5px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+}
