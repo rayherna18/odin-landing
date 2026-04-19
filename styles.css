@@ -11,6 +11,10 @@ p {
   margin-bottom: 0;
 }
 
+p {
+    font-weight: 300;
+}
+
 h1 {
   color: #f9faf8;
   font-weight: 900;
@@ -53,10 +57,9 @@ img {
   border-radius: 10px;
 }
 
-.card-img {
+.trivia-img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
 }
 
 a {
@@ -124,7 +127,7 @@ a {
 .cards-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 
 .hero {
@@ -155,11 +158,12 @@ a {
   color: #1f2937
 }
 
-.trivia-img {
-  width: 125px;
+.trivia-img-container {
+  width: 150px;
   aspect-ratio: 1;
   overflow: hidden;
   border-radius: 10px;
+  object-position: center;
 }
 
 .footer {
@@ -177,10 +181,10 @@ a {
 
 .inner-action {
   width: 1000px;
-  padding: 30px;
+  padding: 40px;
   border-radius: 5px;
   color: #f9faf8;
   background-color: #3882f6;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
