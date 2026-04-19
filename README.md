@@ -1,0 +1,1 @@
+Second official project of the Odin Project where I will put my HTML and CSS fundamental knowledge to the test using only Odin Project resources + google/documentation. Page is structured using mix of flexbox, margin, and max-width (to ensure content is centered). 
